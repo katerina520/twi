@@ -52,6 +52,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         // populate the views according to data
         holder.tvUsername.setText(tweet.user.name);
         holder.tvBody.setText(tweet.body);
+        holder.created_at.setText(tweet.createdAt);
 
         Glide.with(context).load(tweet.user.profileImageUrl).into(holder.ivProfileImage);
 
@@ -71,13 +72,17 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
 
         public TextView tvBody;
 
+        public TextView created_at;
+
         public ViewHolder(View itemView) {
+
             super(itemView);
             // perform findViewById lookup
-            ivProfileImage = (ImageView)  itemView.findViewById(R.id.ivProfileImage);
+            ivProfileImage = (ImageView) itemView.findViewById(R.id.ivProfileImage);
 
             tvUsername = (TextView) itemView.findViewById(R.id.tvUserName);
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
+            created_at = (TextView) itemView.findViewById(R.id.created_at);
 
 
         }
