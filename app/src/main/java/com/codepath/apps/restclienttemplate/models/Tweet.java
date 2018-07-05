@@ -18,6 +18,7 @@ public class Tweet {
     public long uid; // db id for the tweet
     public User user;
     public String createdAt;
+    public String screenName;
     // desereilize the json
 
     public Tweet(){
@@ -31,6 +32,7 @@ public class Tweet {
         tweet.createdAt =  getRelativeTimeAgo(jsonObject.getString("created_at"));
         tweet.user = User.fromJSON(jsonObject.getJSONObject("user"));
 
+        tweet.screenName = tweet.user.screenName;
         return tweet;
 
 
