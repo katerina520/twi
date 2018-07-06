@@ -61,12 +61,13 @@
         android:text="TextView" />
 
     <ImageButton
-        android:id="@+id/retweet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/ivProfileImage"
-        android:layout_marginTop="0dp"
-        app:srcCompat="@drawable/ic_vector_retweet" />
+        android:id="@+id/reply"
+        android:layout_width="84dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/tvUserName"
+        android:layout_below="@+id/tvBody"
+        android:background="@android:drawable/screen_background_light_transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/reply" />
 
 </RelativeLayout>

@@ -1723,7 +1723,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -2986,9 +2986,10 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f06005e;
     public static final int notification_tile_bg=0x7f06005f;
     public static final int notify_panel_notification_icon_bg=0x7f060060;
-    public static final int tooltip_frame_dark=0x7f060061;
-    public static final int tooltip_frame_light=0x7f060062;
-    public static final int vector_compose_fab=0x7f060063;
+    public static final int reply=0x7f060061;
+    public static final int tooltip_frame_dark=0x7f060062;
+    public static final int tooltip_frame_light=0x7f060063;
+    public static final int vector_compose_fab=0x7f060064;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3096,7 +3097,7 @@ public final class R {
     public static final int progress_circular=0x7f070066;
     public static final int progress_horizontal=0x7f070067;
     public static final int radio=0x7f070068;
-    public static final int retweet=0x7f070069;
+    public static final int reply=0x7f070069;
     public static final int right=0x7f07006a;
     public static final int right_icon=0x7f07006b;
     public static final int right_side=0x7f07006c;
@@ -7717,7 +7718,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
