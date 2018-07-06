@@ -15,6 +15,7 @@
         android:ems="10"
         android:hint="What's up?"
         android:gravity="top"
+        android:autoSizeTextType="uniform"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="6dp" />
@@ -43,18 +44,19 @@
 
     <ImageView
         android:id="@+id/ivProfileImage"
-        android:layout_width="57dp"
-        android:layout_height="55dp"
+        android:layout_width="83dp"
+        android:layout_height="80dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
         app:srcCompat="@android:color/black" />
 
     <TextView
         android:id="@+id/myName"
-        android:layout_width="wrap_content"
+        android:layout_width="79dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_below="@+id/ivProfileImage"
+        android:autoSizeTextType="uniform"
         android:text="TextView" />
 
     <Button
