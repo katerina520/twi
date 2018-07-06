@@ -4,6 +4,16 @@
             "outputFile": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
+                    "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8774f6c8b196fc0cd95bec0d76f0d1f9/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
                     "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/b6fdca9832865da50daf0cec53392c27/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/ae37f4bb90e82f8c1c60991bd88e5da3/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

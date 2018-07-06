@@ -8,9 +8,12 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.codepath.apps.restclienttemplate.models.Tweet;
+import com.codepath.apps.restclienttemplate.models.User;
 import com.loopj.android.http.JsonHttpResponseHandler;
 
 import org.json.JSONException;
@@ -24,6 +27,10 @@ public class ComposeActivity extends AppCompatActivity {
     TwitterClient client;
     EditText TweetText;
     String TweetMessage;
+    Tweet tmp;
+
+   //  ImageView ivProfileImage;
+
 
     TextView charCount;
 
@@ -49,6 +56,13 @@ public class ComposeActivity extends AppCompatActivity {
         TweetText = (EditText) findViewById(R.id.message);
         charCount = (TextView)  findViewById(R.id.charCount);
         TweetText.addTextChangedListener(mTextEditorWatcher);
+
+      //  ivProfileImage = (ImageView) findViewById(R.id.ivProfileImage);
+       // tmp = Parcels.unwrap(getIntent().getParcelableExtra("tweet"));
+      //  Glide.with(this)
+      //          .load(tmp.user.profileImageUrl)
+      //          .into(ivProfileImage);
+
 
 
     }

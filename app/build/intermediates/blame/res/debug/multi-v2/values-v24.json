@@ -4,7 +4,7 @@
             "outputFile": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/13ae3332c5d015135db7a4e79b5b995c/res/values-v24/values-v24.xml",
+                    "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
