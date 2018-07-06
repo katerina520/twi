@@ -11,6 +11,7 @@ MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/splendidavocado/.grad
 MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/0b68000d29ed26629a868f0317f74a2b/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8aab197952afa4df06bb7e07c2812d31/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/5976a0084dfef77611786a42591e808d/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/04ac32833152d6022b13dbe7f552a90d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/d492841009210c15decad8abfac6d8bd/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7c06e638d7f52939acb7835472c4569a/AndroidManifest.xml:17:1-22:12
 MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/3f0067ef3aad7d6ff7e9b67d7c0ab7eb/AndroidManifest.xml:2:1-12:12
@@ -18,15 +19,16 @@ MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/splendi
 MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b7ba431b8bb5693997f7fcb2b3cab23e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/03bf2237d233fb87195fbc74e466578e/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.persistence:db:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d76b76456284f63d8ed00ee88cfe4d6a/AndroidManifest.xml:17:1-24:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d8c348df950f3f176968f810572a2f06/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/14383ab86a6d2126f88633f6ce48bb5a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/18aa958bce6f33c2665baf70fe414a7e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a9a95da102c99145bc92e7d63ecca640/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/665e540482690d8da1002aac642c4c48/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f328ae333eb11453cb9299b28ba42b43/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2c6ff95ef0b97cfe125d5239edad59bf/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b3bf9992bc5354ff1d9440cad6044fbe/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8774f6c8b196fc0cd95bec0d76f0d1f9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b2c84ee959b78ea055e574c3c2d8fbc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8a5ab6544c35de90872d7e919a1925dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c8826202ccbfde642be7a5feb5f0686c/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/splendidavocado/Desktop/as1/twi/app/src/main/AndroidManifest.xml:2:1-40:12
 INJECTED from /Users/splendidavocado/Desktop/as1/twi/app/src/main/AndroidManifest.xml:2:1-40:12
@@ -137,6 +139,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/sple
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/8aab197952afa4df06bb7e07c2812d31/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/5976a0084dfef77611786a42591e808d/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/5976a0084dfef77611786a42591e808d/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/04ac32833152d6022b13dbe7f552a90d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/04ac32833152d6022b13dbe7f552a90d/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/d492841009210c15decad8abfac6d8bd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/d492841009210c15decad8abfac6d8bd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/7c06e638d7f52939acb7835472c4569a/AndroidManifest.xml:20:5-44
@@ -151,24 +155,26 @@ MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/splendidavocado
 MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/03bf2237d233fb87195fbc74e466578e/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.persistence:db:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d76b76456284f63d8ed00ee88cfe4d6a/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.persistence:db:1.0.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/d76b76456284f63d8ed00ee88cfe4d6a/AndroidManifest.xml:20:5-22:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d8c348df950f3f176968f810572a2f06/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/d8c348df950f3f176968f810572a2f06/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/14383ab86a6d2126f88633f6ce48bb5a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/14383ab86a6d2126f88633f6ce48bb5a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/18aa958bce6f33c2665baf70fe414a7e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/18aa958bce6f33c2665baf70fe414a7e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a9a95da102c99145bc92e7d63ecca640/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/a9a95da102c99145bc92e7d63ecca640/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/2ade9f1b71d5c559e833125381e6b325/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/665e540482690d8da1002aac642c4c48/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/665e540482690d8da1002aac642c4c48/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f328ae333eb11453cb9299b28ba42b43/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f328ae333eb11453cb9299b28ba42b43/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2c6ff95ef0b97cfe125d5239edad59bf/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/2c6ff95ef0b97cfe125d5239edad59bf/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b3bf9992bc5354ff1d9440cad6044fbe/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/b3bf9992bc5354ff1d9440cad6044fbe/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8774f6c8b196fc0cd95bec0d76f0d1f9/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/8774f6c8b196fc0cd95bec0d76f0d1f9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b2c84ee959b78ea055e574c3c2d8fbc/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3b2c84ee959b78ea055e574c3c2d8fbc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8a5ab6544c35de90872d7e919a1925dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8a5ab6544c35de90872d7e919a1925dc/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/84b4c0b8f95f12c6c9d59663f596603b/AndroidManifest.xml:5:5-7:41
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c8826202ccbfde642be7a5feb5f0686c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c8826202ccbfde642be7a5feb5f0686c/AndroidManifest.xml:20:5-44
 INJECTED from /Users/splendidavocado/Desktop/as1/twi/app/src/main/AndroidManifest.xml

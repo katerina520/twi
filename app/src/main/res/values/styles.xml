@@ -7,6 +7,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBar</item>
         <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="colorControlNormal">#ff1da1f2</item>
+        <item name="colorControlActivated">#ff1da1f2</item>
+        <item name="colorControlHighlight">#ff1da1f2</item>
 
         <!-- Support library compatibility -->
         <item name="actionBarStyle">@style/MyActionBar</item>

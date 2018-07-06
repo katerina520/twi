@@ -53,6 +53,11 @@ public class ComposeActivity extends AppCompatActivity {
     };
 
 
+
+    public void cancelTweet (View view) { finish();}
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         client = TwitterApp.getRestClient(this);

@@ -1,6 +1,8 @@
 package com.codepath.apps.restclienttemplate;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -40,6 +42,9 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         mTweets.addAll(list);
         notifyDataSetChanged();
     }
+
+
+
 
 
     @NonNull
@@ -111,6 +116,19 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvScreenName = (TextView) itemView.findViewById(R.id.tvScreenName);
             created_at = (TextView) itemView.findViewById(R.id.created_at);
+
+
+            tvScreenName.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String userScreenName = tvScreenName.getText().toString();
+                    Intent browserIntent = new Intent(Intent.ACTION_VIEW,
+                            Uri.parse("http://twitter.com/"+userScreenName));
+                    view.getContext().startActivity(browserIntent);
+
+
+                }
+            });
 
 
         }

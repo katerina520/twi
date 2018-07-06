@@ -56,6 +56,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="5dp"
         android:layout_toEndOf="@+id/tvUserName"
+        android:clickable="true"
+        android:onClick="go_to_profile"
         android:text="TextView" />
 
 </RelativeLayout>
