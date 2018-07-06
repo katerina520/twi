@@ -29,7 +29,8 @@ public class ComposeActivity extends AppCompatActivity {
     String TweetMessage;
     Tweet tmp;
 
-   //  ImageView ivProfileImage;
+    ImageView ivProfileImage;
+    TextView myName;
 
 
     TextView charCount;
@@ -56,9 +57,31 @@ public class ComposeActivity extends AppCompatActivity {
         TweetText = (EditText) findViewById(R.id.message);
         charCount = (TextView)  findViewById(R.id.charCount);
         TweetText.addTextChangedListener(mTextEditorWatcher);
+        ivProfileImage = (ImageView) findViewById(R.id.ivProfileImage);
 
-      //  ivProfileImage = (ImageView) findViewById(R.id.ivProfileImage);
-       // tmp = Parcels.unwrap(getIntent().getParcelableExtra("tweet"));
+        myName = (TextView)  findViewById(R.id.myName);
+
+        client.getCurrentUser(new JsonHttpResponseHandler() {
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                try {
+                    User user = User.fromJSON(response);
+                    myName.setText("@" + user.screenName);
+                    Glide.with(getApplicationContext())
+                            .load(user.profileImageUrl)
+                            .into(ivProfileImage);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                super.onFailure(statusCode, headers, throwable, errorResponse);
+            }
+        });
+
+
       //  Glide.with(this)
       //          .load(tmp.user.profileImageUrl)
       //          .into(ivProfileImage);

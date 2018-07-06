@@ -191,6 +191,7 @@ public class TimelineActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.miCompose:
                 Intent i = new Intent(TimelineActivity.this, ComposeActivity.class);
+
                 startActivityForResult(i, REQUEST_CODE);
                 return true;
 
