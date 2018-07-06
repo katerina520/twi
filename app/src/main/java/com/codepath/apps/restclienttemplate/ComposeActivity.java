@@ -30,7 +30,7 @@ public class ComposeActivity extends AppCompatActivity {
 
     TwitterClient client;
     EditText TweetText;
-    String TweetMessage;
+    String TweetMessage = "";
     Tweet tmp;
 
     ImageView ivProfileImage;
@@ -60,10 +60,21 @@ public class ComposeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        Bundle extras = getIntent().getExtras();
+
+
+        if(extras !=null) {
+            TweetMessage = extras.getString("userScreenName");
+        }
         client = TwitterApp.getRestClient(this);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compose);
         TweetText = (EditText) findViewById(R.id.message);
+
+
+        TweetText.setText(TweetMessage+" ");
+        TweetText.setSelection(TweetText.getText().length());
         charCount = (TextView)  findViewById(R.id.charCount);
         TweetText.addTextChangedListener(mTextEditorWatcher);
         ivProfileImage = (ImageView) findViewById(R.id.ivProfileImage);

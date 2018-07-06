@@ -8,6 +8,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -105,6 +106,8 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
         public TextView created_at;
         public TextView tvScreenName;
 
+        public ImageButton retweet;
+
 
         public ViewHolder(View itemView) {
 
@@ -116,6 +119,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvScreenName = (TextView) itemView.findViewById(R.id.tvScreenName);
             created_at = (TextView) itemView.findViewById(R.id.created_at);
+            retweet = (ImageButton) itemView.findViewById(R.id.retweet);
 
 
             tvScreenName.setOnClickListener(new View.OnClickListener() {
@@ -125,6 +129,23 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW,
                             Uri.parse("http://twitter.com/"+userScreenName));
                     view.getContext().startActivity(browserIntent);
+
+
+                }
+            });
+
+            retweet.setOnClickListener(new View.OnClickListener() {
+
+
+                @Override
+                public void onClick(View view) {
+                    Intent replyIntent = new Intent (view.getContext(), ComposeActivity.class );
+                    String userScreenName = tvScreenName.getText().toString();
+                    replyIntent.putExtra("userScreenName", userScreenName);
+                    String tweetText = tvBody.getText().toString();
+                   //  replyIntent.putExtra("tweetText", tweetText);
+                    view.getContext().startActivity(replyIntent);
+
 
 
                 }
