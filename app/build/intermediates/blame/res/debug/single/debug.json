@@ -292,6 +292,10 @@
         "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/b6fdca9832865da50daf0cec53392c27/res/drawable-hdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/res/merged/debug/drawable-hdpi_vector_compose_fab.png.flat",
+        "source": "/Users/splendidavocado/Desktop/as1/twi/app/src/main/res/drawable-hdpi/vector_compose_fab.png"
+    },
+    {
         "merged": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat",
         "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/b6fdca9832865da50daf0cec53392c27/res/layout/abc_action_bar_up_container.xml"
     },
@@ -1294,6 +1298,10 @@
     {
         "merged": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "/Users/splendidavocado/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/b6fdca9832865da50daf0cec53392c27/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/res/merged/debug/layout_action_view_progress.xml.flat",
+        "source": "/Users/splendidavocado/Desktop/as1/twi/app/src/main/res/layout/action_view_progress.xml"
     },
     {
         "merged": "/Users/splendidavocado/Desktop/as1/twi/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat",
