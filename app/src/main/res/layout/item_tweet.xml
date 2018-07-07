@@ -78,6 +78,7 @@
         android:layout_toEndOf="@+id/reply"
         android:background="@android:drawable/screen_background_light_transparent"
         android:scaleType="fitXY"
+        android:onClick="onRetweet"
         app:srcCompat="@drawable/retweet" />
 
 </RelativeLayout>

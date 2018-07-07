@@ -119,7 +119,7 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             tvBody = (TextView) itemView.findViewById(R.id.tvBody);
             tvScreenName = (TextView) itemView.findViewById(R.id.tvScreenName);
             created_at = (TextView) itemView.findViewById(R.id.created_at);
-            reply = (ImageButton) itemView.findViewById(R.id.reply);
+            reply = (ImageButton) itemView.findViewById(R.id.retweet);
 
 
             tvScreenName.setOnClickListener(new View.OnClickListener() {
